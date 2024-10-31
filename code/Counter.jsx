@@ -31,7 +31,7 @@ const Counter = ({ defaultValue }) => {
 
 export default Counter;
 
-const Arrow = ({ color, width, rotete: rotate }) => {
+const Arrow = ({ color, width, rotate }) => {
     return (
         <svg style={{ transform: `rotate(${rotate}deg)` }} width={width || "20px"} color={color || "black"} viewBox="0 0 24 24">
             <path d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path>
